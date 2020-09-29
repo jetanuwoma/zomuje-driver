@@ -1,0 +1,40 @@
+{
+    "project_info": {
+      "project_number": "794136020701",
+      "firebase_url": "https://zomuje-new.firebaseio.com",
+      "project_id": "zomuje-new",
+      "storage_bucket": "zomuje-new.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:794136020701:android:67f8b5d6a020885bd03d34",
+          "android_client_info": {
+            "package_name": "com.zomuje.zomujedriverapp"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "794136020701-uet3ac150ctp4gi1mr1oae55fbdtqfb0.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDYCnqvtq4TPzvHJ4qvHd2ekP_L6jiTPEk"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "794136020701-uet3ac150ctp4gi1mr1oae55fbdtqfb0.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

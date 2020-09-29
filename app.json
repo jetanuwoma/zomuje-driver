@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "Zomuje Driver",
+    "description": "Taxi Booking Driver App",
+    "slug": "ZomujeDriver",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "notification": {
+      "icon": "./assets/images/push_notification.png"
+    },
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zomuje.zomujedriverapp",
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "This app uses the always location access in the background for improved pickups and dropoffs, customer support and safety purpose.",
+        "NSLocationWhenInUseUsageDescription": "This app uses the location for handling improved pickups and dropoffs, customer support and safety purpose.",
+        "NSCameraUsageDescription": "This app uses the camera to take your profile picture.",
+        "NSPhotoLibraryUsageDescription": "This app uses Photo Library to help upload your profile picture.",
+        "ITSAppUsesNonExemptEncryption":false,
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyDBDBOnX3yi1xT8UFDYQ6i7kDTU4PkYOXU"
+      },
+      "buildNumber": "1.0"
+    },
+    "android": {
+      "package": "com.zomuje.zomujedriverapp",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA_ROLL"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDBDBOnX3yi1xT8UFDYQ6i7kDTU4PkYOXU"
+        }
+      },
+      "useNextNotificationsApi": true
+    },
+    "extra":{
+      "firebaseConfig":{
+        "apiKey": "AIzaSyBkz_Wz4gA48QeculOg4lGWqYyRpHciKuo",
+        "authDomain": "zomuje-new.firebaseapp.com",
+        "databaseURL": "https://zomuje-new.firebaseio.com",
+        "projectId": "zomuje-new",
+        "storageBucket": "zomuje-new.appspot.com",
+        "messagingSenderId": "794136020701",
+        "appId": "1:794136020701:web:98d1b7efb310d59dd03d34",
+        "measurementId": "G-N4GXNH0GCL"
+      },
+      "googlemapkey":"AIzaSyDBDBOnX3yi1xT8UFDYQ6i7kDTU4PkYOXU"
+    }
+  }
+}
